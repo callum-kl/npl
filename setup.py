@@ -16,7 +16,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Harita Dellaporta",
     packages=find_packages(exclude=["examples"]),
-    python_requires=">=3.7",
+    python_requires=">=3.9 ",
     install_requires=["numpy>=1.19.5", "jax>=0.2.13" "scipy>=1.4.1" "seaborn>=0.11.2"],
     license="Apache-2.0",
     classifiers=[
